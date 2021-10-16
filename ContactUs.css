@@ -1,11 +1,20 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	box-sizing: border-box;
+}
+
+body{
+	min-height: 100vh;
+}
 .navbar{
 	margin: auto;
-	padding: 15px;
-	display: flex;
-	justify-content: space-between;
-	background-color: #043C6B;
+	padding: 30px;
 	display: flex;
 	justify-content: flex-end;
+	background-color: #043C6B;
+	width: 100%;
 }
 
 .navbar ul li{
@@ -18,13 +27,14 @@
 	text-decoration: none;
 	color: #fff;
 	text-transform: uppercase;
+
 }
 
 .navbar ul li::after{
-	content: '';
+	content: "";
+	background-color: white;
 	height: 3px;
 	width: 100%;
-	background: white;
 	position: absolute;
 	left: 0;
 	bottom: -10px;
@@ -32,4 +42,68 @@
 }
 .navbar ul li:hover::after{
 	width: 0%
+}
+
+.contact-section{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	color: #043C6B;
+
+}
+
+.checkbtn{
+	display: flex;
+	justify-content: flex-start;
+}
+
+
+
+label{
+	margin: 0px;
+	padding-bottom: 13px;
+	font-size: 25px;
+	display: none;
+}
+
+#toggle{
+	display: none;
+}
+
+@media (max-width: 700px){
+	label{
+		display: block;
+		text-align: center;
+		cursor: pointer;
+		background-color: #043C6B;
+		color: white;
+		text-align: left;
+		padding-left: 15px;
+
+	}
+	.navbar{
+		display: none;
+		padding-bottom: 10px;
+		padding-top: 15px;
+
+	}
+	.navbar ul li{
+		text-align: left;
+		display: block;
+		font-size: 25px;
+		padding-bottom: 15px;
+
+	}
+	.navbar ul li::after{
+		width: 100%;
+		bottom: 10px;
+		transition: 0.1;	}
+
+	#toggle:checked + .navbar{
+		display: block;
+	}
+
+
+
 }
