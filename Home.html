@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="Home.css">
+    <script src="Home.js"></script>
+</head>
+<body>
+   <!-- Container for the image gallery -->
+<div class="container">
+
+    <!-- Full-width images with number text -->
+    <div class="mySlides">
+      <div class="numbertext">1 / 6</div>
+        <img src="https://www.worldisavillage.com/wp-content/uploads/2020/04/USA_Worldisavillage-scaled.jpg" style="width:100%" height="530px">
+    </div>
+  
+    <div class="mySlides">
+      <div class="numbertext">2 / 6</div>
+        <img src="https://www.teahub.io/photos/full/5-54345_city-new-york-city-usa-art-night-images.jpg" style="width:100%" height="530px">
+    </div>
+  
+    <div class="mySlides">
+      <div class="numbertext">3 / 6</div>
+        <img src="https://cdn.theculturetrip.com/wp-content/uploads/2021/01/gettyimages-647695249.jpg" style="width:100%" height="530px">
+    </div>
+  
+    <div class="mySlides">
+      <div class="numbertext">4 / 6</div>
+        <img src="https://photographylife.com/wp-content/uploads/2015/08/BB_Suset-1-of-1.jpg" style="width:100%" height="530px">
+    </div>
+  
+    <div class="mySlides">
+      <div class="numbertext">5 / 6</div>
+        <img src="https://wallpaperaccess.com/full/377758.jpg" style="width:100%" height="530px">
+    </div>
+  
+    <div class="mySlides">
+      <div class="numbertext">6 / 6</div>
+        <img src="https://bestwallpapers.net/desktop/wp-content/uploads/2021/02/San-Francisco-Usa-Bridge-Wallpapers-Free-Download.jpg" style="width:100%" height="530px">
+    </div>
+  
+    <!-- Next and previous buttons -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  
+    <!-- Image text -->
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+  
+    <!-- Thumbnail images -->
+    <div class="row">
+      <div class="column">
+        <img class="demo cursor" src="https://www.worldisavillage.com/wp-content/uploads/2020/04/USA_Worldisavillage-scaled.jpg" style="width:100%" height="120px" onclick="currentSlide(1)" alt="Welcome to USA!">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="https://www.teahub.io/photos/full/5-54345_city-new-york-city-usa-art-night-images.jpg" style="width:100%" onclick="currentSlide(2)" alt="NY at night">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="https://cdn.theculturetrip.com/wp-content/uploads/2021/01/gettyimages-647695249.jpg" style="width:100%" onclick="currentSlide(3)" alt="Crazy lifestyle!">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="https://photographylife.com/wp-content/uploads/2015/08/BB_Suset-1-of-1.jpg" style="width:100%" height="120px" onclick="currentSlide(4)" alt="Brooklyn Bridge">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="https://wallpaperaccess.com/full/377758.jpg" style="width:100%" height="120px" onclick="currentSlide(5)" alt="Grand Canyon">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="https://bestwallpapers.net/desktop/wp-content/uploads/2021/02/San-Francisco-Usa-Bridge-Wallpapers-Free-Download.jpg" style="width:100%" height="120px" onclick="currentSlide(6)" alt="San-Francisco Port">
+      </div>
+    </div>
+  </div>
+</body>
+</html>
