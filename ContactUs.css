@@ -187,7 +187,7 @@ input{
 .footer h2{
 	color:  #fff;
 	font-size: 36px;
-	font-family: 'Raleway', sans-serif;
+	font-family: sans-serif;
 	font-weight: 400;
 	margin: 0;
 
@@ -344,8 +344,10 @@ input{
 		text-align: center;
 	}
 	.footer .footer-center{
+		padding-top: 20px;
 		margin-left: 0;
-	}
+		text-align: left;
+			}
 
 
 	
