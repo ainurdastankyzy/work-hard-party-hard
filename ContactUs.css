@@ -9,8 +9,11 @@ body{
 	min-height: 100vh;
 	overflow-x: hidden;
 
+
+
 }
 /* heading - main - start */
+
 .navbar{
 	margin: auto;
 	padding: 30px;
@@ -77,7 +80,8 @@ label{
 	align-content: center;
 	color: #043C6B;
 	padding-top: 30px;
-	position: relative;
+	padding-bottom: 400px;
+	position: absolute;
 
 }
 
@@ -151,6 +155,113 @@ input{
 	justify-content: flex-start;
 }
 
+.footer{
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	background: #043C6B;
+	width: 100%;
+	box-sizing: border-box;
+	text-align: left;
+	font-size: 16px;
+	font-weight: 500;
+	padding: 50px 55px;
+	width: 100%;
+
+
+}
+
+.footer .footer-left, 
+.footer .footer-center{
+	justify-content: space-between;
+	vertical-align: top;
+	display: flex;
+	flex-direction: row;
+	text-align: center;
+}
+.footer .footer-left{
+	display: inline-block;
+	width: 100%;
+
+}
+.footer h2{
+	color:  #fff;
+	font-size: 36px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 400;
+	margin: 0;
+
+
+}
+
+.footer h2 span{
+	color: #0B5FA5;
+}
+
+.footer .footer-links{
+	color: #fff;
+	margin: 20px 0 12 px;
+	padding: 0;
+}
+
+.footer .footer-links a{
+	display: inline-block;
+	line-height: 1.8;
+	font-weight: 400;
+	text-decoration: none;
+	color: inherit;
+	font-family: sans-serif;
+	margin-right: 8px;
+}
+
+
+
+.footer .footer-center{
+	width: 100%;
+
+
+}
+
+.footer .footer-center i{
+	width: 36px;
+	height: 36px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 36px;
+	margin: 10px 15px;
+	vertical-align: middle;
+	background: #fff;
+	font-size: 22px;
+}
+.footer .footer-center p{
+	display: inline-block;
+	color: #fff;
+	font-weight: normal;
+	vertical-align: middle;
+	margin: 0;
+	font-family: sans-serif;
+}
+
+.footer .footer-center p span{
+	display: block;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 2;
+}
+
+.footer .footer-links a:before{
+	content: "|";
+	font-weight: normal;
+	color: #fff;
+	display: inline-block;
+	padding-right: 5px;
+	left: 0;
+}
+
+.footer .footer-links .link1:before{
+	content: none;
+	}
+
 
 @media (max-width: 700px){
 	/* heading - start */
@@ -213,6 +324,7 @@ input{
 
 	.contact-section{
 		transform: translateX(10px);
+		padding-bottom: 520px;
 	}
 
 	.contact-form .send-btn{
@@ -220,6 +332,20 @@ input{
 
 	}
 	
+	.footer{
+		font-size: 14px;
+		font-family: sans-serif;
+	}
+	.footer .footer-left, 
+	.footer .footer-center{
+		display: block;
+		width: 100%;
+		margin-bottom: 40px;
+		text-align: center;
+	}
+	.footer .footer-center{
+		margin-left: 0;
+	}
 
 
 	
