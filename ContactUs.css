@@ -97,7 +97,6 @@ label{
 
 .contact-form .text-box{
 	background: #fff;
-	color: #fff;
 	border-color: #043C6B;
 	width: calc(50%);
 	height: 50px;
@@ -111,7 +110,6 @@ label{
 
 .contact-form textarea{
 	background: #fff;
-	color: #fff;
 	border-color: #043C6B;
 	width: 100%;
 	padding: 12px;
