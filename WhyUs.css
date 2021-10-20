@@ -1,0 +1,52 @@
+h1{
+    color:rgb(63, 60, 60) ;
+    text-align: center;
+    padding-top: 3%;
+}
+p{
+    color: #043C6B;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: larger;
+}
+.back{
+    background-image: url("https://myworktravel.com/uploads/4%20Work%20Travel%20USA/WAT-2021/film.jpg");
+
+    opacity: 90%;
+}
+
+.container .card {
+    display:flex;
+    text-align: center;
+}
+.txt .container .card{
+    display: flex;
+   
+}
+.container{
+    margin-left: 500px;
+    margin-top: 100px;
+    display: flex;
+    text-align: center;
+    padding-right: 500px;
+    margin-right: -300px;
+}
+h2{
+    padding-top: 5%;
+}
+.card{
+    
+}
+.txt{
+    padding-left: 40%;
+}
+@media(max-width:700px){
+    .card{
+        display:block
+        padding-left: 15%;
+        margin-left: 15%;
+    }
+    .container{
+        display: block;
+       
+    }
+}
